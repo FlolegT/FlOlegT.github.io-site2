@@ -1,0 +1,581 @@
+head {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background: #bae9ff;
+}
+
+.menu {
+  background: url(img/menuFon.jpg) no-repeat;
+  max-width: 1600px;
+  height: 1057px;
+  margin: auto;
+}
+
+
+
+.nav_conteiner {
+  background: url(img/navOpacity.png);
+  opacity: 0.6;
+  height: 116px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__nav_v {
+  display: flex;
+  width: 1177px;
+  margin: auto;
+  height: 56px;
+  position: relative;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+  color: red;
+
+}
+
+.menu_line {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.62;
+  width: 1170px;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+
+}
+
+.menu__two {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-between;
+  align-items: center;
+
+}
+
+.menu__navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 25px;
+  padding-left: 500px;
+}
+
+.menu__navigation ul li {
+  display: inline;
+  font-size: 16px;
+  font-weight: 700;
+
+}
+
+.menu__navigation ul li a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 2px;
+}
+
+.menu__navigation ul li a:hover {
+  color: blue;
+}
+
+.naveTwo {
+  justify-content: left;
+}
+
+.nameStore {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.menu__title {
+  width: 610px;
+  margin-left: 274px;
+  padding-top: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title_top {
+  font-weight: 800;
+  font-size: 121px;
+  line-height: 82px;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: -14px;
+}
+
+.title_top_color {
+  color: #f9236f;
+  margin: 0;
+  padding: 0;
+
+}
+
+.title_number {
+  font-weight: 800;
+  font-size: 50px;
+  letter-spacing: 83px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 98px;
+}
+
+.title_text {
+  color: #7b8f99;
+  text-align: center;
+
+}
+
+.button {
+  height: 47px;
+  width: 156px;
+  display: inline-block;
+  color: white;
+  background-image: -moz-linear-gradient(0deg, rgb(249, 35, 111) 0%, rgb(249, 35, 70) 100%);
+  background-image: -webkit-linear-gradient(0deg, rgb(249, 35, 111) 0%, rgb(249, 35, 70) 100%);
+  background-image: -ms-linear-gradient(0deg, rgb(249, 35, 111) 0%, rgb(249, 35, 70) 100%);
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  font-weight: 800;
+  line-height: 47px;
+  margin-top: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: red;
+  background-image: white;
+  background-image: -webkit-linear-gradient(0deg, rgb(253, 253, 253) 0%, rgb(255, 255, 255) 100%);
+  ;
+  background-image: white;
+}
+
+
+.cont_one {
+  background-image: url(/img/podlohka.jpg);
+  min-height: 2760px;
+  width: 100%;
+  position: relative;
+}
+
+.cont_one_wrap {
+  background-color: #dbdbdb;
+  background-image: url(/img/fon_center.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  min-height: 890px;
+  width: 100%;
+  position: relative;
+  top: 890px;
+
+}
+
+.cont_cart__free {
+  width: 1175px;
+  height: 1220px;
+  z-index: 2;
+  position: relative;
+  top: -50px;
+  margin: auto;
+  background-color: #ffffff;
+
+}
+
+.cont_cart__free_h2,
+.cont_cart__free_h4 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.cont_cart__free_h2 {
+  font-size: 30px;
+}
+
+.cont--text {
+  padding-top: 50px;
+}
+
+
+.curcle {
+  position: absolute;
+  top: -68px;
+  left: 47px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.icon {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.wrap {
+  position: relative;
+  margin: auto;
+}
+
+.wrap-icon {
+  display: flex;
+  justify-content: space-around;
+}
+
+.reclamas {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 90px;
+}
+
+.reclama {
+  width: 535px;
+  height: 294px;
+  position: relative
+}
+
+.reclama a {
+  position: absolute;
+  bottom: 36px;
+  left: 50px;
+}
+
+.cont_cart__free_h4 {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 0px;
+}
+
+.tetx-rec {
+  font-size: 26px;
+  padding-top: 100px;
+  padding-bottom: 5px;
+}
+
+.catalogs {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.tovar--img {
+  width: 246px;
+  height: 298px;
+}
+
+.tovar--text {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 0;
+  vertical-align: top;
+
+}
+
+.tovar--brend {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 5px;
+  vertical-align: top;
+}
+
+.tovar--svg {
+  padding-bottom: 5px;
+}
+
+.tovar--old {
+  font-size: 16px;
+  text-decoration: line-through;
+  color: #6b6b6b;
+}
+
+.tovar--new {
+  font-size: 16px;
+  font-weight: 800;
+  color: #000000;
+  margin-left: 5px;
+}
+
+.slider {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #cacaca;
+  text-align: center;
+  display: flex;
+  position: relative;
+  margin: 0 5px;
+
+}
+
+.slider:hover {
+  background: #f92357;
+}
+
+.sliders {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 50px 5px 0 5px;
+}
+
+.slider--center--r {
+  position: absolute;
+  left: 6px;
+  top: 5px;
+}
+
+.slider--center--l {
+  position: absolute;
+  left: 8px;
+  top: 5px;
+}
+
+
+
+
+.news--wrap {
+  background: linear-gradient(to right, #dadada, #f0f0f0);
+  background-image: url(img/fon_center.png);
+  margin-top: -110px;
+  width: 100%;
+  height: 890px;
+  background-size: cover;
+  /* text-align: center; */
+}
+
+.news--svg {
+  width: 55px;
+  height: 16px;
+}
+
+.news--btn {
+  width: 99px;
+  height: 30px;
+  font-size: 13px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  font-weight: 800;
+  line-height: 30px;
+}
+
+.news--p {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.news--text {
+  width: 360px;
+  height: 472px;
+  background-color: #fff;
+}
+
+/* .news--text img{
+  width: 100%;
+  height: 472px;
+} */
+
+.news--wrap-p {
+  display: flex;
+  height: 180px;
+  width: 300px;
+  flex-direction: column;
+  margin: auto;
+}
+
+.news--wrap-B {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.news--wrap-B a {
+  margin-left: 0;
+  margin-top: 0;
+}
+
+
+.news--title {
+  font-size: 18px;
+  font-weight: 800;
+  padding-top: 30px;
+}
+
+.news--title-t {
+  font-size: 14px;
+  color: #a8a8a8;
+  line-height: 30px;
+}
+
+.news--p {
+  font-size: 14px;
+  color: #494949;
+  line-height: 22px;
+
+}
+
+.news--text-wrap {
+  display: flex;
+  width: 1171px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.our--brand {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 1173px;
+  margin: auto;
+}
+
+.our--brand-wrap {
+  background-color: #fff;
+  width: 1171px;
+  height: 730px;
+
+  position: absolute;
+  top: -105px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.our--brand--img img {
+  width: 94 px;
+  height: 93px;
+
+}
+
+.our--brand-wrap1 {
+  background-color: #fff;
+  width: 1171px;
+  height: 730px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.our--brand--img img {
+  width: 94 px;
+  height: 93px;
+
+}
+
+
+.our--brand--br {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 0;
+  vertical-align: top;
+  display: block;
+  margin-top: 8px;
+
+}
+
+.our--brand--text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 5px;
+  vertical-align: top;
+}
+
+.our--brand-catalog {
+  display: flex;
+  height: 100px;
+  width: 268px;
+  padding: 10px 0;
+}
+
+.our--brand-text {
+  padding-left: 29px;
+
+}
+
+.colom-brand {
+  padding-bottom: 44px;
+  display: block;
+}
+
+
+.colomBanner {
+  padding-top: 50px;
+}
+
+.colom-brand {
+  padding-top: 60px;
+}
+
+.brand--line {
+  align-items: center;
+  width: 356px;
+  height: 1px;
+
+}
+
+.colom--catalogs {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand--line-long {
+  width: 1171px;
+}
+
+footer{
+  background: linear-gradient(to bottom right, rgb(249,35,111), rgb(249,35,70));
+}
+
+.bagraundFooter {
+margin: auto;
+
+background: url(img/bagraudFooter.jpg) no-repeat;
+max-width: 1700px;
+height: 150px;
+ 
+}
+
+.About{
+  display: flex;
+  justify-content: center;
+  color: #f0f0f0;
+  font-size: 18px;
+  padding-top: 25px;
+  
+}
+
+.About a{
+color: darkblue;
+font-size: 18px;
+ margin: 15px;
+ 
+}
+
+.About a:hover { 
+  text-decoration: none;
+
+}

@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800&amp;subset=cyrillic" rel="stylesheet">
+
+  <title>MeStore</title>
+</head>
+
+<body>
+
+
+
+  <header>
+    <div class="menu">
+      <div class="nav_conteiner">
+        <div class="menu__nav_v">
+          <p>Понравилась верстка? Обращейтесь Email:</p>
+          <p><a href="mailto:FOlegT@gmail.com?subject=Заказ верстки">FOlegT@gmail.com</a></p>
+          <div class="menu_line"></div>
+        </div>
+        <div class="menu__two">
+          <div class="nameStore">MeStore</div>
+          <div class="menu__navigation">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Porfolio</a></li>
+              <li><a href="#">Page</a></li>
+            </ul>
+          </div>
+          <div class="naveTwo">
+            <img src="img/navTwo.png" alt="">
+          </div>
+
+        </div>
+      </div>
+      <div class="menu__title">
+        <p class="title_top">Fashion</p>
+        <p class="title_top title_top_color ">Carnival</p>
+        <p class="title_number">2022</p>
+        <P class="title_text">Lorem Ipsum. Proin gravida nibh velit it’s a cold world out the</P>
+        <a class="button" href="#">Shop Now</a>
+      </div>
+    </div>
+  </header>
+  <div class="menu_fon"></div>
+
+
+
+  <section class="cont_one">
+
+    <div class="cont_cart">
+      <div class="cont_cart__free">
+        <div class="wrap-icon">
+          <div class="wrap">
+            <div class="curcle">
+              <svg width="126px" height="126px">
+                <image x="0px" y="0px" width="126px" height="126px" xlink:href="data:img/png;base64,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" />
+              </svg>
+
+            </div>
+            <div class="cont--text">
+              <h2 class="cont_cart__free_h2">Free Shipping</h2>
+              <h4 class="cont_cart__free_h4">With €50 or more orders</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="curcle">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="126px" height="126px">
+                <image x="0px" y="0px" width="126px" height="126px" xlink:href="data:img/png;base64,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" />
+              </svg>
+            </div>
+            <div class="cont--text">
+              <h2 class="cont_cart__free_h2">Free Shipping</h2>
+              <h4 class="cont_cart__free_h4">With €50 or more orders</h4>
+            </div>
+          </div>
+
+
+          <div class="wrap">
+            <div class="curcle">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="126px" height="126px">
+                <image x="0px" y="0px" width="126px" height="126px" xlink:href="data:img/png;base64,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" />
+              </svg>
+            </div>
+            <div class="cont--text">
+              <h2 class="cont_cart__free_h2">Free Shipping</h2>
+              <h4 class="cont_cart__free_h4">With €50 or more orders</h4>
+            </div>
+          </div>
+
+        </div>
+        <div class="reclamas">
+          <div class="reclama">
+            <img src="img/Reclama_left.jpg" alt="">
+            <a class="button" href="#">Shop Now</a>
+          </div>
+          <div class="reclama">
+            <img src="img/Reclama_rit.jpg" alt="">
+            <a class="button" href="#">Shop Now</a>
+          </div>
+        </div>
+
+        <h2 class="cont_cart__free_h2 tetx-rec">FEATURED PRODUCTS</h2>
+        <h4 class="cont_cart__free_h4">Praesent mauris. Fusce nec tellus sed augue semper porta</h4>
+
+        <div class="catalogs">
+          <div class="tovar">
+            <a class="tovar--img" href="#"><img src="img/tovar1.jpg" alt=""></a>
+            <p class="tovar--text">Orange T-shirt Nike</p>
+            <p class="tovar--brend">Nike</p>
+            <svg class="tovar--svg" width="86px" height="14px">
+              <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="15px" x="0px" y="13.3049999999998px">
+                <tspan font-size="15px" font-family="FontAwesome" fill="#FFC808">&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61446;</tspan>
+              </text>
+            </svg> <br>
+            <span class="tovar--old">$74.00</span>
+            <span class="tovar--new">$69.00</span>
+          </div>
+
+          <div class="tovar">
+            <a class="tovar--img" href="#"><img src="img/tovar2.jpg" alt=""></a>
+            <p class="tovar--text">Orange T-shirt Nike</p>
+            <p class="tovar--brend">Nike</p>
+            <svg class="tovar--svg" width="86px" height="14px">
+              <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="15px" x="0px" y="13.3049999999998px">
+                <tspan font-size="15px" font-family="FontAwesome" fill="#FFC808">&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61446;</tspan>
+              </text>
+            </svg> <br>
+            <span class="tovar--old">$74.00</span>
+            <span class="tovar--new">$69.00</span>
+          </div>
+
+          <div class="tovar">
+            <a class="tovar--img" href="#"><img src="img/tovar3.jpg" alt=""></a>
+            <p class="tovar--text">Orange T-shirt Nike</p>
+            <p class="tovar--brend">Nike</p>
+            <svg class="tovar--svg" width="86px" height="14px">
+              <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="15px" x="0px" y="13.3049999999998px">
+                <tspan font-size="15px" font-family="FontAwesome" fill="#FFC808">&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61446;</tspan>
+              </text>
+            </svg> <br>
+            <span class="tovar--old">$74.00</span>
+            <span class="tovar--new">$69.00</span>
+          </div>
+
+          <div class="tovar">
+            <a class="tovar--img" href="#"><img src="img/tovar4.jpg" alt=""></a>
+            <p class="tovar--text">Orange T-shirt Nike</p>
+            <p class="tovar--brend">Nike</p>
+            <svg class="tovar--svg" width="86px" height="14px">
+              <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="15px" x="0px" y="13.3049999999998px">
+                <tspan font-size="15px" font-family="FontAwesome" fill="#FFC808">&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61446;</tspan>
+              </text>
+            </svg> <br>
+            <span class="tovar--old">$74.00</span>
+            <span class="tovar--new">$69.00</span>
+          </div>
+        </div>
+
+
+        <div class="sliders">
+
+          <div class="slider--left slider">
+            <svg class="slider--center--r" width="6px" height="9px">
+              <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="15px" x="0px" y="10.0720000000001px">
+                <tspan font-size="15px" font-family="FontAwesome" fill="#FFFFFF">&#61657;</tspan>
+              </text>
+            </svg>
+
+          </div>
+
+
+          <div class="slider--rt slider">
+            <svg class="slider--center--l" width="5px" height="9px">
+              <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="15px" x="0px" y="10.0720000000001px">
+                <tspan font-size="15px" font-family="FontAwesome" fill="#FFFFFF">&#61658;</tspan>
+              </text>
+            </svg>
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+
+      <section class="news">
+        <div class="news--wrap">
+          <!-- <img  src="img/fon_center.png" alt=""> -->
+          <div class="news--contetn">
+
+            <h2 class="cont_cart__free_h2 tetx-rec"> Latest News</h2>
+            <h4 class="cont_cart__free_h4">Praesent mauris. Fusce nec tellus sed augue semper porta</h4>
+
+            <div class="news--text-wrap">
+
+              <div class="news--text">
+                <img src="img/newsF1.jpg" alt="">
+
+                <div class="news--wrap-p">
+                  <span class="news--title">Porem ipsum dolor sit ame</span>
+                  <span class="news--title-t">Lorem Ipsum. Proin gravida nibh</span>
+
+                  <p class="news--p">Lorem Ipsum. Proin gravida nibh velit it’s a
+                    cold world out there.This is Photoshop's version of Lorem Ipsum.</p>
+                  <div class="news--wrap-B">
+                    <a class="button news--btn" href="#">Shop Now</a>
+                    <img class="news--svg" src="img/2.svg" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="news--text">
+                <img src="img/newsF2.jpg" alt="">
+
+                <div class="news--wrap-p">
+                  <span class="news--title">Porem ipsum dolor sit ame</span>
+                  <span class="news--title-t">Lorem Ipsum. Proin gravida nibh</span>
+
+                  <p class="news--p">Lorem Ipsum. Proin gravida nibh velit it’s a
+                    cold world out there.This is Photoshop's version of Lorem Ipsum.</p>
+                  <div class="news--wrap-B">
+                    <a class="button news--btn" href="#">Shop Now</a>
+                    <img class="news--svg" src="img/2.svg" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <div class="news--text">
+                <img src="img/newsF3.jpg" alt="">
+
+                <div class="news--wrap-p">
+                  <span class="news--title">Porem ipsum dolor sit ame</span>
+                  <span class="news--title-t">Lorem Ipsum. Proin gravida nibh</span>
+
+                  <p class="news--p">Lorem Ipsum. Proin gravida nibh velit it’s a
+                    cold world out there.This is Photoshop's version of Lorem Ipsum.</p>
+                  <div class="news--wrap-B">
+                    <a class="button news--btn" href="#">Shop Now</a>
+                    <img class="news--svg" src="img/2.svg" alt="">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+
+      </section>
+    <section class="our--brand">
+      <div class="our--brand-wrap">
+        <div class="our--brand-wrap1">
+          <div class="colom">
+            <h2 class="cont_cart__free_h2 tetx-rec colom-brand">Our Brands </h2>
+            <div class="colom--catalogs">
+              <div class="our--brand-catalog">
+                <div class="our--brand--img">
+
+                  <img src="img/brand1.jpg" alt="">
+                </div>
+                <div class="our--brand-text">
+                  <p class="our--brand--br">Orange T-shirt</p>
+                  <p class="our--brand--text">Nike</p>
+
+                  <svg class="tovar--svg" width="86px" height="14px">
+                    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="15px" x="0px" y="13.3049999999998px">
+                      <tspan font-size="15px" font-family="FontAwesome" fill="#FFC808">&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61446;</tspan>
+                    </text>
+                  </svg> <br>
+                  <span class="tovar--old">$74.00</span>
+                  <span class="tovar--new">$69.00</span>
+
+                </div>
+
+
+
+              </div>
+
+              <img class="brand--line" src="img/line.svg" alt="">
+
+            </div>
+
+            <div class="colom">
+              <div class="our--brand-catalog">
+                <div class="our--brand--img">
+
+                  <img src="img/brand2.jpg" alt="">
+                </div>
+                <div class="our--brand-text">
+                  <p class="our--brand--br">Orange T-shirt</p>
+                  <p class="our--brand--text">Nike</p>
+
+                  <svg class="tovar--svg" width="86px" height="14px">
+                    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="15px" x="0px" y="13.3049999999998px">
+                      <tspan font-size="15px" font-family="FontAwesome" fill="#FFC808">&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61446;</tspan>
+                    </text>
+                  </svg> <br>
+                  <span class="tovar--old">$74.00</span>
+                  <span class="tovar--new">$69.00</span>
+
+                </div>
+
+
+
+              </div>
+
+              <img class="brand--line" src="img/line.svg" alt="">
+
+            </div>
+
+            <div class="colom">
+              <div class="our--brand-catalog">
+                <div class="our--brand--img">
+
+                  <img src="img/brand3.jpg" alt="">
+                </div>
+                <div class="our--brand-text">
+                  <p class="our--brand--br">Orange T-shirt</p>
+                  <p class="our--brand--text">Nike</p>
+
+                  <svg class="tovar--svg" width="86px" height="14px">
+                    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="15px" x="0px" y="13.3049999999998px">
+                      <tspan font-size="15px" font-family="FontAwesome" fill="#FFC808">&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61446;</tspan>
+                    </text>
+                  </svg> <br>
+                  <span class="tovar--old">$74.00</span>
+                  <span class="tovar--new">$69.00</span>
+
+                </div>
+
+
+
+              </div>
+
+              <img class="brand--line" src="img/line.svg" alt="">
+
+            </div>
+
+            <div class="colom">
+              <div class="our--brand-catalog">
+                <div class="our--brand--img">
+
+                  <img src="img/brand4.jpg" alt="">
+                </div>
+                <div class="our--brand-text">
+                  <p class="our--brand--br">Orange T-shirt</p>
+                  <p class="our--brand--text">Nike</p>
+
+                  <svg class="tovar--svg" width="86px" height="14px">
+                    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="15px" x="0px" y="13.3049999999998px">
+                      <tspan font-size="15px" font-family="FontAwesome" fill="#FFC808">&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61446;</tspan>
+                    </text>
+                  </svg> <br>
+                  <span class="tovar--old">$74.00</span>
+                  <span class="tovar--new">$69.00</span>
+
+                </div>
+
+
+
+              </div>
+
+
+
+            </div>
+
+          </div>
+          <div class="colomBanner">
+            <img src="img/BrandBanner.png" alt="Рекламный баннер">
+          </div>
+
+
+          <div class="colom">
+            <h2 class="cont_cart__free_h2 tetx-rec colom-brand">Our Brands </h2>
+            <div class="colom--catalogs">
+              <div class="our--brand-catalog">
+                <div class="our--brand--img">
+
+                  <img src="img/brand1.jpg" alt="">
+                </div>
+                <div class="our--brand-text">
+                  <p class="our--brand--br">Orange T-shirt</p>
+                  <p class="our--brand--text">Nike</p>
+
+                  <svg class="tovar--svg" width="86px" height="14px">
+                    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="15px" x="0px" y="13.3049999999998px">
+                      <tspan font-size="15px" font-family="FontAwesome" fill="#FFC808">&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61446;</tspan>
+                    </text>
+                  </svg> <br>
+                  <span class="tovar--old">$74.00</span>
+                  <span class="tovar--new">$69.00</span>
+
+                </div>
+
+
+
+              </div>
+
+              <img class="brand--line" src="img/line.svg" alt="">
+
+            </div>
+
+            <div class="colom">
+              <div class="our--brand-catalog">
+                <div class="our--brand--img">
+
+                  <img src="img/brand2.jpg" alt="">
+                </div>
+                <div class="our--brand-text">
+                  <p class="our--brand--br">Orange T-shirt</p>
+                  <p class="our--brand--text">Nike</p>
+
+                  <svg class="tovar--svg" width="86px" height="14px">
+                    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="15px" x="0px" y="13.3049999999998px">
+                      <tspan font-size="15px" font-family="FontAwesome" fill="#FFC808">&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61446;</tspan>
+                    </text>
+                  </svg> <br>
+                  <span class="tovar--old">$74.00</span>
+                  <span class="tovar--new">$69.00</span>
+
+                </div>
+
+
+
+              </div>
+
+              <img class="brand--line" src="img/line.svg" alt="">
+
+            </div>
+
+            <div class="colom">
+              <div class="our--brand-catalog">
+                <div class="our--brand--img">
+
+                  <img src="img/brand3.jpg" alt="">
+                </div>
+                <div class="our--brand-text">
+                  <p class="our--brand--br">Orange T-shirt</p>
+                  <p class="our--brand--text">Nike</p>
+
+                  <svg class="tovar--svg" width="86px" height="14px">
+                    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="15px" x="0px" y="13.3049999999998px">
+                      <tspan font-size="15px" font-family="FontAwesome" fill="#FFC808">&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61446;</tspan>
+                    </text>
+                  </svg> <br>
+                  <span class="tovar--old">$74.00</span>
+                  <span class="tovar--new">$69.00</span>
+
+                </div>
+
+
+
+              </div>
+
+              <img class="brand--line" src="img/line.svg" alt="">
+
+            </div>
+
+            <div class="colom">
+              <div class="our--brand-catalog">
+                <div class="our--brand--img">
+
+                  <img src="img/brand4.jpg" alt="">
+                </div>
+                <div class="our--brand-text">
+                  <p class="our--brand--br">Orange T-shirt</p>
+                  <p class="our--brand--text">Nike</p>
+
+                  <svg class="tovar--svg" width="86px" height="14px">
+                    <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="15px" x="0px" y="13.3049999999998px">
+                      <tspan font-size="15px" font-family="FontAwesome" fill="#FFC808">&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61445;&#32;&#61446;</tspan>
+                    </text>
+                  </svg> <br>
+                  <span class="tovar--old">$74.00</span>
+                  <span class="tovar--new">$69.00</span>
+
+                </div>
+
+
+              </div>
+            </div>
+
+            
+          </div>
+
+         
+        </div>
+     
+      </div>
+    </section>
+
+  </section>
+
+  <footer>
+    <div class="bagraundFooter">
+      <div class="About">
+      <h4>About company:</h4>
+          
+      <h4> <a href="mailto:FOlegT@gmail.com?subject=Заказ верстки">FOlegT@gmail.com</a></h4>
+     
+    </div>
+
+   
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>
